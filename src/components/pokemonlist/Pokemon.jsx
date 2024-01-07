@@ -1,10 +1,14 @@
-const Pokemon=({name,image})=>{
+import  "./Pokemon.css";
+import { Link } from "react-router-dom";
+const Pokemon=({name,image,id})=>{
 
 
     return(
-        <div>
-        <div> {name}</div>
-        <div> <img src={image}/></div>
+        <div className="pokemon">
+            <Link to ={`/pokemon/${id}`}>
+        <div  className="pokemon-name">  {name}</div>
+        <div className="pokemon-img">     <img src={image}/></div>
+        </Link>
         </div>
     )
 }

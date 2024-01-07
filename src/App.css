@@ -1,0 +1,18 @@
+#pekedex-head{
+
+    margin: 0 auto;
+    letter-spacing: 5px;
+
+
+
+}
+.outerpokedex{
+ margin-left:45%;
+ margin-top: 10%;
+letter-spacing: 5px;
+align-items: center;
+    
+}
+a:visited{
+    color: black;
+}
